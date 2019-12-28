@@ -4,7 +4,7 @@ const gr = (5/3);
 var lines;
 function calc(sessional) {
     lines = '';
-    lines += '<tr><th colspan = "6" id="top">Minimum marks required ( /100) for respective grades</th></tr>';
+    lines += '<tr><th colspan = "6" id="top">Minimum marks required (out of 100) for respective grades</th></tr>';
     lines += '<tr id="mid"><th>O (10)</th><th>E (9)</th><th>A+ (8)</th><th>A (7)</th><th>B+ (6)</th><th>B (5)</th></tr><tr>';
     if(sessional > 40) {
         alert('Enter Value <= 40');
